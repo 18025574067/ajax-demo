@@ -12,6 +12,8 @@ public class AjaxServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        // 1. 响应数据
+        resp.getWriter().write("hello, ajax~~~");
     }
 
     @Override
